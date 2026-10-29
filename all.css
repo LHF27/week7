@@ -441,3 +441,13 @@ body {
     margin-top: 0px;
   }
 }
+
+.chart {
+  margin-left: auto;
+}
+
+/* 讓 C3 甜甜圈圖中間的文字完美置中 */
+.c3-chart-arcs-title {
+    text-anchor: middle;
+    dominant-baseline: central;
+}
